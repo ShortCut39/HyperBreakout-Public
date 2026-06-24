@@ -1,17 +1,21 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
-using UnityEngine.SceneManagement;
+
 
 public class Buttons : MonoBehaviour
 {
+   
+    public UIDocument UIDocument;
     private Button startButton;
     private Button exitButton;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        startButton = UIDocument.rootVisualElement.Q<Button>("StartButton");
-       
+       startButton = UIDocument.rootVisualElement.Q<Button>("StartButton");
+
+       startButton.clicked += EnterGame;
+
     }
 
     // Update is called once per frame
@@ -19,5 +23,15 @@ public class Buttons : MonoBehaviour
     {
 
         
+    }
+
+    void EnterGame()
+    {
+        Debug.Log("Enter Game");
+        
+        SceneManager.LoadSceneAsync("Game");
+
+
+
     }
 }
