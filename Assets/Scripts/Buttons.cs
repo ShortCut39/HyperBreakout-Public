@@ -13,7 +13,9 @@ public class Buttons : MonoBehaviour
     void Start()
     {
        startButton = UIDocument.rootVisualElement.Q<Button>("StartButton");
+       exitButton = UIDocument.rootVisualElement.Q<Button>("ExitButton");
 
+       exitButton.clicked += ExitGame;
        startButton.clicked += EnterGame;
 
     }
@@ -27,11 +29,17 @@ public class Buttons : MonoBehaviour
 
     void EnterGame()
     {
-        Debug.Log("Enter Game");
         
         SceneManager.LoadSceneAsync("Game");
 
 
+
+    }
+
+    void ExitGame()
+    {
+
+        Application.Quit();
 
     }
 }
