@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="72315ac7-3cee-40b9-a8ed-3ed70fbd7788" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Hyper-Breakout-2026-06-17_09-49-40/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Hyper-Breakout-2026-06-17_09-49-40/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Buttons.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Buttons.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/UniversalRP.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/UniversalRP.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UniversalRenderPipelineGlobalSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UniversalRenderPipelineGlobalSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,12 +22,12 @@
     &quot;assignee&quot;: &quot;ShortCut39&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://ShortCut39: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@github.com/KazemaRyukuro/Hyper-Breakout-2026-06-17_09-49-40.git",
-    "accountId": "ca77e657-d014-4262-aa5e-57d023f76c86"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://ShortCut39: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@github.com/KazemaRyukuro/Hyper-Breakout-2026-06-17_09-49-40.git&quot;,
+    &quot;accountId&quot;: &quot;ca77e657-d014-4262-aa5e-57d023f76c86&quot;
   }
-}]]></component>
+}</component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3,
@@ -49,6 +52,16 @@
   }
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../Downloads/okoj/gfj.x86_64" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Downloads/okoj" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="$PROJECT_DIR$/../Unity/Hub/Editor/6000.5.0f1/Editor/Unity" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath $PROJECT_DIR$ -debugCodeOptimization" />
@@ -97,8 +110,18 @@
       <workItem from="1782400989758" duration="81000" />
       <workItem from="1782401084010" duration="231000" />
       <workItem from="1782451817721" duration="20000" />
-      <workItem from="1782451923910" duration="719000" />
+      <workItem from="1782451923910" duration="1215000" />
+      <workItem from="1782456196434" duration="61000" />
     </task>
+    <task id="LOCAL-00001" summary="exit Button">
+      <option name="closed" value="true" />
+      <created>1782452766193</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1782452766193</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +137,8 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="exit Button" />
+    <option name="LAST_COMMIT_MESSAGE" value="exit Button" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
