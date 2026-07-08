@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="72315ac7-3cee-40b9-a8ed-3ed70fbd7788" name="Changes" comment="" />
+    <list default="true" id="72315ac7-3cee-40b9-a8ed-3ed70fbd7788" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Hyper-Breakout-2026-06-17_09-49-40/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Hyper-Breakout-2026-06-17_09-49-40/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -107,6 +109,7 @@
       <workItem from="1782451923910" duration="1215000" />
       <workItem from="1782456196434" duration="61000" />
       <workItem from="1782460630847" duration="317000" />
+      <workItem from="1783494234975" duration="716000" />
     </task>
     <task id="LOCAL-00001" summary="exit Button">
       <option name="closed" value="true" />
@@ -124,7 +127,15 @@
       <option name="project" value="LOCAL" />
       <updated>1782460728561</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Base Game angefangen">
+      <option name="closed" value="true" />
+      <created>1783494888523</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1783494888523</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,7 +153,8 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="exit Button" />
     <MESSAGE value="Game angefangen + fonts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Game angefangen + fonts" />
+    <MESSAGE value="Base Game angefangen" />
+    <option name="LAST_COMMIT_MESSAGE" value="Base Game angefangen" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
