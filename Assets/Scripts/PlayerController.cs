@@ -23,13 +23,14 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.A))
         {
         Debug.Log("A");
-            rb.linearVelocity = Vector2.left;
-            
+        rb.linearVelocity = new Vector2(-2, 0);
+
         }
 
         if (Input.GetKeyDown(KeyCode.D))
         {
-            rb.linearVelocity = Vector2.right;
+            Debug.Log("D");
+            rb.linearVelocity = new Vector2(2, 0);
             
         }
         
