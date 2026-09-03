@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - Breaker
+  - Border_Bottom
   layers:
   - Default
   - TransparentFX
