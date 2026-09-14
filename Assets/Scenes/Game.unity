@@ -3386,8 +3386,8 @@ MonoBehaviour:
   x: 0
   y: -4
   z: 0
-  speedleft: -3
-  speedright: 3
+  speedleft: -5
+  speedright: 5
 --- !u!50 &1975929372
 Rigidbody2D:
   serializedVersion: 5
