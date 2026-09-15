@@ -10,6 +10,7 @@ public class BallController : MonoBehaviour
     public GameObject Breaker;
     public GameObject Player;
     public GameObject Border_Bottom;
+    public GameObject ExplosionObstacle;
     private Button restartbutton;
     public float speed = -3f;
     public UIDocument uiDocument;
@@ -52,6 +53,11 @@ public class BallController : MonoBehaviour
         {
             Destroy(collision.gameObject);
             score += 100;
+
+        GameObject explosion = Instantiate(ExplosionObstacle, transform.position, transform.rotation);
+        
+        Destroy(explosion,5);
+
         }
 
         if (collision.gameObject.CompareTag("Border_Bottom"))
