@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Breaker
   - Border_Bottom
+  - Ball
   layers:
   - Default
   - TransparentFX

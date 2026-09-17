@@ -167,6 +167,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2876681559124419991, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
+      propertyPath: breakerHP
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6566761789561001975, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
       propertyPath: m_Name
       value: Breaker (6)
@@ -227,6 +231,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 381449148106648564, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2876681559124419991, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
+      propertyPath: breakerHP
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6566761789561001975, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
@@ -291,6 +299,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2876681559124419991, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
+      propertyPath: breakerHP
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6566761789561001975, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
       propertyPath: m_Name
       value: Breaker (1)
@@ -353,6 +365,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2876681559124419991, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
+      propertyPath: breakerHP
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6566761789561001975, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
       propertyPath: m_Name
       value: Breaker (2)
@@ -413,6 +429,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 381449148106648564, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2876681559124419991, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
+      propertyPath: breakerHP
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6566761789561001975, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
@@ -477,6 +497,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2876681559124419991, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
+      propertyPath: breakerHP
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6566761789561001975, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
       propertyPath: m_Name
       value: Breaker (4)
@@ -538,6 +562,10 @@ PrefabInstance:
     - target: {fileID: 381449148106648564, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2876681559124419991, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
+      propertyPath: breakerHP
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6566761789561001975, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
       propertyPath: m_Name
@@ -740,6 +768,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2876681559124419991, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
+      propertyPath: breakerHP
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6566761789561001975, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
       propertyPath: m_Name
       value: Breaker (3)
@@ -802,6 +834,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2876681559124419991, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
+      propertyPath: breakerHP
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6566761789561001975, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
       propertyPath: m_Name
       value: Breaker (2)
@@ -825,7 +861,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 444920942}
-  - component: {fileID: 444920943}
   m_Layer: 0
   m_Name: Breakers_0
   m_TagString: Breaker
@@ -857,18 +892,6 @@ Transform:
   - {fileID: 1530090536}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &444920943
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 444920941}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9c70c27d5b54d8b6ac6a6fcad0aa2b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BreakerController
 --- !u!1 &481631022
 GameObject:
   m_ObjectHideFlags: 0
@@ -878,7 +901,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 481631023}
-  - component: {fileID: 481631024}
   m_Layer: 0
   m_Name: Breakers_3
   m_TagString: Untagged
@@ -910,18 +932,6 @@ Transform:
   - {fileID: 895942695}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &481631024
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 481631022}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9c70c27d5b54d8b6ac6a6fcad0aa2b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BreakerController
 --- !u!1 &516571035
 GameObject:
   m_ObjectHideFlags: 0
@@ -1025,6 +1035,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2876681559124419991, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
+      propertyPath: breakerHP
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6566761789561001975, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
       propertyPath: m_Name
       value: Breaker (3)
@@ -1086,6 +1100,10 @@ PrefabInstance:
     - target: {fileID: 381449148106648564, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2876681559124419991, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
+      propertyPath: breakerHP
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6566761789561001975, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
       propertyPath: m_Name
@@ -1184,6 +1202,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2876681559124419991, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
+      propertyPath: breakerHP
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6566761789561001975, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
       propertyPath: m_Name
       value: Breaker (2)
@@ -1246,6 +1268,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2876681559124419991, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
+      propertyPath: breakerHP
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6566761789561001975, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
       propertyPath: m_Name
       value: Breaker (6)
@@ -1275,7 +1301,7 @@ GameObject:
   - component: {fileID: 801840528}
   m_Layer: 0
   m_Name: Ball
-  m_TagString: Untagged
+  m_TagString: Ball
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1330,7 +1356,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.12819538, g: 0.9716981, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1430,10 +1456,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 667cd08cfd3e145d291b28c8e6b202fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BallController
-  Breaker: {fileID: 0}
-  Player: {fileID: 0}
-  Border_Bottom: {fileID: 0}
-  ExplosionObstacle: {fileID: 1954677215843120857, guid: a8c0a2d7ee79931109acaec36b057b19, type: 3}
   speed: -3
   uiDocument: {fileID: 516571036}
   hp: 3
@@ -1483,6 +1505,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 381449148106648564, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2876681559124419991, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
+      propertyPath: breakerHP
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6566761789561001975, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
@@ -1547,6 +1573,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2876681559124419991, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
+      propertyPath: breakerHP
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6566761789561001975, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
       propertyPath: m_Name
       value: Breaker (4)
@@ -1609,6 +1639,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2876681559124419991, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
+      propertyPath: breakerHP
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6566761789561001975, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
       propertyPath: m_Name
       value: Breaker (7)
@@ -1670,6 +1704,10 @@ PrefabInstance:
     - target: {fileID: 381449148106648564, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2876681559124419991, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
+      propertyPath: breakerHP
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6566761789561001975, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
       propertyPath: m_Name
@@ -1872,6 +1910,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2876681559124419991, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
+      propertyPath: breakerHP
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6566761789561001975, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
       propertyPath: m_Name
       value: Breaker (3)
@@ -1933,6 +1975,10 @@ PrefabInstance:
     - target: {fileID: 381449148106648564, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2876681559124419991, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
+      propertyPath: breakerHP
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6566761789561001975, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
       propertyPath: m_Name
@@ -1996,6 +2042,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2876681559124419991, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
+      propertyPath: breakerHP
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6566761789561001975, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
       propertyPath: m_Name
       value: Breaker (7)
@@ -2057,6 +2107,10 @@ PrefabInstance:
     - target: {fileID: 381449148106648564, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2876681559124419991, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
+      propertyPath: breakerHP
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6566761789561001975, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
       propertyPath: m_Name
@@ -2120,6 +2174,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2876681559124419991, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
+      propertyPath: breakerHP
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6566761789561001975, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
       propertyPath: m_Name
       value: Breaker (2)
@@ -2180,6 +2238,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 381449148106648564, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2876681559124419991, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
+      propertyPath: breakerHP
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6566761789561001975, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
@@ -2381,6 +2443,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2876681559124419991, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
+      propertyPath: breakerHP
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6566761789561001975, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
       propertyPath: m_Name
       value: Breaker (1)
@@ -2443,6 +2509,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2876681559124419991, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
+      propertyPath: breakerHP
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6566761789561001975, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
       propertyPath: m_Name
       value: Breaker
@@ -2504,6 +2574,10 @@ PrefabInstance:
     - target: {fileID: 381449148106648564, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2876681559124419991, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
+      propertyPath: breakerHP
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6566761789561001975, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
       propertyPath: m_Name
@@ -2706,6 +2780,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2876681559124419991, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
+      propertyPath: breakerHP
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6566761789561001975, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
       propertyPath: m_Name
       value: Breaker (8)
@@ -2768,6 +2846,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2876681559124419991, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
+      propertyPath: breakerHP
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6566761789561001975, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
       propertyPath: m_Name
       value: Breaker (7)
@@ -2791,7 +2873,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1677398489}
-  - component: {fileID: 1677398490}
   m_Layer: 0
   m_Name: Breakers_2
   m_TagString: Untagged
@@ -2823,18 +2904,6 @@ Transform:
   - {fileID: 2012193037}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1677398490
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1677398488}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9c70c27d5b54d8b6ac6a6fcad0aa2b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BreakerController
 --- !u!1001 &1741210373
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2882,6 +2951,10 @@ PrefabInstance:
     - target: {fileID: 381449148106648564, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2876681559124419991, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
+      propertyPath: breakerHP
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6566761789561001975, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
       propertyPath: m_Name
@@ -2945,6 +3018,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2876681559124419991, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
+      propertyPath: breakerHP
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6566761789561001975, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
       propertyPath: m_Name
       value: Breaker
@@ -3005,6 +3082,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 381449148106648564, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2876681559124419991, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
+      propertyPath: breakerHP
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6566761789561001975, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
@@ -3069,6 +3150,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2876681559124419991, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
+      propertyPath: breakerHP
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6566761789561001975, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
       propertyPath: m_Name
       value: Breaker
@@ -3092,7 +3177,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1930018214}
-  - component: {fileID: 1930018215}
   m_Layer: 0
   m_Name: Breakers_1
   m_TagString: Breaker
@@ -3124,18 +3208,6 @@ Transform:
   - {fileID: 1501720333}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1930018215
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1930018213}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9c70c27d5b54d8b6ac6a6fcad0aa2b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BreakerController
 --- !u!1001 &1956180463
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3183,6 +3255,10 @@ PrefabInstance:
     - target: {fileID: 381449148106648564, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2876681559124419991, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
+      propertyPath: breakerHP
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6566761789561001975, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
       propertyPath: m_Name
@@ -3246,6 +3322,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2876681559124419991, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
+      propertyPath: breakerHP
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2876681559124419991, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
+      propertyPath: uiDocument
+      value: 
+      objectReference: {fileID: 516571036}
     - target: {fileID: 6566761789561001975, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
       propertyPath: m_Name
       value: Breaker (4)
@@ -3330,7 +3414,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0, b: 0.9071338, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3515,6 +3599,10 @@ PrefabInstance:
     - target: {fileID: 381449148106648564, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2876681559124419991, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
+      propertyPath: breakerHP
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6566761789561001975, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
       propertyPath: m_Name
@@ -3717,6 +3805,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2876681559124419991, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
+      propertyPath: breakerHP
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2876681559124419991, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
+      propertyPath: uiDocument
+      value: 
+      objectReference: {fileID: 516571036}
     - target: {fileID: 6566761789561001975, guid: 2cd604f8eb530f39d978e6834e7e3407, type: 3}
       propertyPath: m_Name
       value: Breaker

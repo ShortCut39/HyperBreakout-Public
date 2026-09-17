@@ -1,31 +1,27 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.SocialPlatforms.Impl;
 using UnityEngine.UIElements;
 
 public class BallController : MonoBehaviour
 {
-    Collider2D cd;
+    
     Rigidbody2D rb;
-    public GameObject Breaker;
-    public GameObject Player;
-    public GameObject Border_Bottom;
-    public GameObject ExplosionObstacle;
     private Button restartbutton;
     public float speed = -3f;
     public UIDocument uiDocument;
     private Label health;
-    public Label scorelabel;
     public int hp = 3;
     private int score = 0;
+    public Label scorelabel;
+    private Label winlabel;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     { 
+        scorelabel = uiDocument.rootVisualElement.Q<Label>("scorelabel");
         health = uiDocument.rootVisualElement.Q<Label>("healthlabel");
         restartbutton = uiDocument.rootVisualElement.Q<Button>("restartbutton");
-        scorelabel = uiDocument.rootVisualElement.Q<Label>("scorelabel");
-        cd = GetComponent<Collider2D>();
+        winlabel = uiDocument.rootVisualElement.Q<Label>("winlabel");
         rb = GetComponent<Rigidbody2D>();
         rb.linearVelocity = new Vector2(0,speed);
         restartbutton.style.display = DisplayStyle.None;
@@ -40,6 +36,17 @@ public class BallController : MonoBehaviour
     {
         health.text = "Leben: " + hp;
         scorelabel.text = "Score: " + score;
+        
+
+        if (score >= 90000)
+        {
+            Destroy(gameObject);
+            
+            restartbutton.style.display = DisplayStyle.Flex;
+            winlabel.style.display = DisplayStyle.Flex;
+            winlabel.text = "Gewonnen!!!";
+            
+        }
 
 
 
@@ -49,15 +56,10 @@ public class BallController : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
+
         if (collision.gameObject.CompareTag("Breaker"))
         {
-            Destroy(collision.gameObject);
             score += 100;
-
-        GameObject explosion = Instantiate(ExplosionObstacle, transform.position, transform.rotation);
-        
-        Destroy(explosion,5);
-
         }
 
         if (collision.gameObject.CompareTag("Border_Bottom"))
@@ -66,6 +68,7 @@ public class BallController : MonoBehaviour
 
             if (hp <= 0)
             {
+                
                 Destroy(gameObject);
                 health.text = "Leben: " + hp;
 
