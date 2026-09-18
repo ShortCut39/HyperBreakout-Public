@@ -14,10 +14,9 @@ public class Buttons : MonoBehaviour
     {
        startButton = UIDocument.rootVisualElement.Q<Button>("StartButton");
        exitButton = UIDocument.rootVisualElement.Q<Button>("ExitButton");
-
+       
        exitButton.clicked += ExitGame;
        startButton.clicked += EnterGame;
-
     }
 
     // Update is called once per frame
@@ -29,17 +28,11 @@ public class Buttons : MonoBehaviour
 
     void EnterGame()
     {
-        
         SceneManager.LoadSceneAsync("Game");
-
-
-
     }
 
     void ExitGame()
     {
-
         Application.Quit();
-
     }
 }

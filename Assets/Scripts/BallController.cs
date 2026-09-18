@@ -14,6 +14,7 @@ public class BallController : MonoBehaviour
     private int score = 0;
     public Label scorelabel;
     private Label winlabel;
+    private Button gameExitButton;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -21,11 +22,14 @@ public class BallController : MonoBehaviour
         scorelabel = uiDocument.rootVisualElement.Q<Label>("scorelabel");
         health = uiDocument.rootVisualElement.Q<Label>("healthlabel");
         restartbutton = uiDocument.rootVisualElement.Q<Button>("restartbutton");
+        gameExitButton = uiDocument.rootVisualElement.Q<Button>("gameexitbutton");
         winlabel = uiDocument.rootVisualElement.Q<Label>("winlabel");
         rb = GetComponent<Rigidbody2D>();
         rb.linearVelocity = new Vector2(0,speed);
         restartbutton.style.display = DisplayStyle.None;
+        gameExitButton.style.display = DisplayStyle.None;
         restartbutton.clicked += ReloadScene;
+        gameExitButton.clicked += ExitGame;
 
 
 
@@ -36,22 +40,6 @@ public class BallController : MonoBehaviour
     {
         health.text = "Leben: " + hp;
         scorelabel.text = "Score: " + score;
-        
-
-        if (score >= 90000)
-        {
-            Destroy(gameObject);
-            
-            restartbutton.style.display = DisplayStyle.Flex;
-            winlabel.style.display = DisplayStyle.Flex;
-            winlabel.text = "Gewonnen!!!";
-            
-        }
-
-
-
-
-
     }
 
     void OnCollisionEnter2D(Collision2D collision)
@@ -60,6 +48,18 @@ public class BallController : MonoBehaviour
         if (collision.gameObject.CompareTag("Breaker"))
         {
             score += 100;
+            
+            if (score >= 9000)
+            {
+                Destroy(gameObject);
+            
+                restartbutton.style.display = DisplayStyle.Flex;
+                winlabel.style.display = DisplayStyle.Flex;
+                gameExitButton.style.display = DisplayStyle.Flex;
+                winlabel.text = "Gewonnen!!!";
+            
+            }
+            
         }
 
         if (collision.gameObject.CompareTag("Border_Bottom"))
@@ -73,6 +73,7 @@ public class BallController : MonoBehaviour
                 health.text = "Leben: " + hp;
 
                 restartbutton.style.display = DisplayStyle.Flex;
+                gameExitButton.style.display = DisplayStyle.Flex;
             }
 
 
@@ -83,5 +84,10 @@ public class BallController : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         
         
+    }
+
+    void ExitGame()
+    {
+        Application.Quit();
     }
 }
